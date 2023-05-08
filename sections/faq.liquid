@@ -13,29 +13,6 @@
             {{ block.settings.text }}
           </p>
         </div>
-
-        <!--
-          {% comment %} Second FAQ item {% endcomment %}
-          <button class="accordion {{ section.settings.content_alignment }}">What payment methods do you accept?</button>
-          <div class="panel {{ section.settings.content_alignment }}">
-            <p>We accept all major credit cards, PayPal, and Google Pay.</p>
-          </div>
-
-          {% comment %} Third FAQ item {% endcomment %}
-          <button class="accordion {{ section.settings.content_alignment }}">How long will it take to receive my order?</button>
-          <div class="panel {{ section.settings.content_alignment }}">
-            <p>
-              Most orders are processed within 1-2 business days and shipped via standard shipping. Shipping time varies
-              depending on your location, but typically takes 3-7 business days.
-            </p>
-          </div>
-
-          {% comment %} Fourth FAQ item {% endcomment %}
-          <button class="accordion {{ section.settings.content_alignment }}">Do you offer international shipping?</button>
-          <div class="panel {{ section.settings.content_alignment }}">
-            <p>Yes, we offer international shipping to most countries. Shipping fees vary depending on your location.</p>
-          </div>
-        -->
     {%- endcase -%}
   {%- endfor -%}
 </div>
@@ -80,7 +57,7 @@
         {
           "type": "text",
           "id": "button_label",
-          "default": "Button label",
+          "default": "Button label SA",
           "label": "t:sections.rich-text.blocks.buttons.settings.button_label_1.label",
           "info": "t:sections.rich-text.blocks.buttons.settings.button_label_1.info"
         }
